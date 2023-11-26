@@ -20,7 +20,7 @@ function TaskList() {
   useEffect(()=>{
     let lista = localStorage.getItem('tasks')
     if(lista){
-      setTarea(JSON.parse(lista))
+      setTareas(JSON.parse(lista))
     }
   }, [])
 

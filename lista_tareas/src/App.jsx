@@ -11,6 +11,9 @@ function App() {
               <h2>Lista de Tareas</h2>
               <TaskList />
             </div>
+            <footer>
+              <h4>Olivera Sara Elisa - 2023</h4>
+            </footer>
       </div>
     </>
   )
